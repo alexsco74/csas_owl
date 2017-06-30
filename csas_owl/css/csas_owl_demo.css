@@ -1,0 +1,11 @@
+.owl-demo.owl-carousel .item {
+    max-height: 10rem;
+    background: #4DC7A0;
+    padding: 1rem;
+}
+
+.csas-owl-demo-con.owl-carousel .owl-item > *:first-child {
+    height: 10rem;
+    background: #4DC7A0;
+    padding: 1rem;
+}

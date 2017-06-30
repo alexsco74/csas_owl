@@ -1,0 +1,6 @@
+name = Csas owl
+description = Csas owl
+core = 7.x
+version = VERSION
+package = Csas
+configure = csas-owl-example

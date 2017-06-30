@@ -1,0 +1,124 @@
+.csas-owl-nav .owl-prev, .csas-owl-nav .owl-next {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    border: 5px solid #fff;
+    border-radius: 50%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    box-shadow: 0 0 10px #fff;
+    -webkit-box-shadow: 0 0 10px #fff;
+    -moz-box-shadow: 0 0 10px #fff;
+    -o-box-shadow: 0 0 10px #fff;
+}
+
+.csas-owl-nav .owl-prev:hover, .csas-owl-nav .owl-next:hover {
+    cursor: pointer;
+}
+
+.csas-owl-nav .owl-prev {
+    left: 0;
+    top: 50%;
+    margin-top: -22px;
+
+}
+
+.csas-owl-nav .owl-next {
+    right: 0;
+    top: 50%;
+    margin-top: -22px;
+}
+
+.csas-owl-wi-dots .csas-owl-nav .owl-prev,
+.csas-owl-wi-dots .csas-owl-nav .owl-next {
+    margin-top: -48px;
+}
+
+.csas-owl-nav .owl-prev span {
+    overflow: hidden;
+    display: block;
+    width: 0px;
+    height: 0px;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 15px solid #fff;
+    margin: 5px 10px 5px 5px;
+    vertical-align: middle;
+}
+
+.csas-owl-nav .owl-next span {
+    overflow: hidden;
+    display: block;
+    width: 0px;
+    height: 0px;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 15px solid #fff;
+    margin: 5px 5px 5px 10px;
+    vertical-align: middle;
+}
+
+.csas-owl-nav .owl-prev.disabled, .csas-owl-nav .owl-next.disabled {
+    display: none;
+}
+
+.csas-owl-carousel .owl-stage {
+    background-color: transparent;
+}
+
+.csas-owl-carousel .owl-item {
+    background-color: transparent;
+}
+
+.csas-owl-carousel .owl-item .csas-owl-si {
+    margin: 0 2%;
+    display: table;
+    width: 96%;
+}
+
+.csas-owl-carousel .owl-item .csas-owl-si > div {
+    margin: 0 auto;
+    float: none;
+    display: block;
+}
+
+.csas-owl-carousel .owl-item:not(.active) {
+    opacity: 0;
+}
+
+.csas-owl-carousel .owl-item {
+    -webkit-transition: all .5s ease-in .1s;
+    -moz-transition: all .5s ease-in .1s;
+    -o-transition: all .5s ease-in .1s;
+    -ms-transition: all .5s ease-in .1s;
+    transition: all .5s ease-in .1s;
+}
+
+/* Feel free to change duration  */
+.animated {
+    -webkit-animation-duration: 1000ms;
+    animation-duration: 1000ms;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+/* .owl-animated-out - only for current item */
+/* This is very important class. Use z-index if you want move Out item above In item */
+.owl-animated-out {
+    z-index: 1
+}
+
+/* .owl-animated-in - only for upcoming item
+/* This is very important class. Use z-index if you want move In item above Out item */
+.owl-animated-in {
+    z-index: 0
+}
+
+.owl-carousel .owl-item {
+    min-height: 0;
+    border: none;
+}
